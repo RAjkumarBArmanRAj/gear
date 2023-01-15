@@ -1,5 +1,5 @@
 /*---------------
------------------ footer css style----------------
+----------------- font css style----------------
 ----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
 
@@ -184,7 +184,50 @@ main {
 .year {
     font-size: 45px;
 }
+/*---------------
+----------------- main four section css style----------------
+----------------- */
+.services{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.service-title{
+    font-size: 45px;
+    
+    
+}
+.service-decription{
+    color: #727272;
 
+}
+.transfer{
+   margin-bottom: 50px;
+}
+.banks{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+.bank{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 15px;
+
+}
+.banks-title{
+    
+
+}
+.banks-decription{
+    color: #727272;
+}
+.bank-pic img{
+    width: 510px;
+    height: 500px;
+}
 /*---------------
 ----------------- main four section css style----------------
 ----------------- */
@@ -335,6 +378,14 @@ footer {
     .btn-secondary {
         padding: 10px;
     }
+    .banks{
+        flex-direction: column;
+    }
+    .bank-pic img{
+        width: 100%;
+    }
+    
+
 
     .flex {
         flex-direction: column;
@@ -387,7 +438,12 @@ footer {
     .ability {
         flex-direction: column;
     }
-
+    .bank-pic img{
+        width: 100%;
+    }
+    .banks{
+        flex-direction: column;
+    }
     .Feature-img img {
         width: 100%;
     }
